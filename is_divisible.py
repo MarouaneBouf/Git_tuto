@@ -16,4 +16,4 @@ def is_prime(n):
     :param n: the number to check
     :return: True or False
     """
-    return all(n%i for i in range(2,n))
+    return all(n%i for i in range(2,n//2 + 1))
